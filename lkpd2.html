@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lkpd2</title>
+</head>
+<body>
+    <script>
+    //no 1
+        let nama = 'y'
+        let gajipokok = 5000000;
+        let tunjangan = 0.2 * gajipokok;
+        let pajak = 0.15 * gajipokok;
+        let gajibersih = gajipokok - tunjangan - pajak;
+        
+        console.log('Nama Karyawan' ,nama)
+        console.log('Gaji Pokok' ,gajipokok)
+        console.log('Tunjangan' ,tunjangan)
+        console.log('Pajak' ,pajak)
+        console.log('Gaji Bersih' ,gajibersih)
+
+    //no2
+        let jam = 1
+        let menit = 25
+        let detik = 30
+        let total = jam * 3600 + menit * 60 + detik 
+
+        console.log('Total Detik' ,total)
+
+    //no3
+
+        let totalwaktu = 3650;
+        let jm = Math.floor(totalwaktu / 3600);
+        let sisadetik = totalwaktu % 3600;
+        let mnt = Math.floor(sisadetik / 60);
+        let dtk = sisadetik % 60;
+        
+        console.log('Jam' ,jm)
+        console.log('Menit' ,mnt)
+        console.log('Detik' ,dtk)
+
+    </script>
+</body>
+</html>
